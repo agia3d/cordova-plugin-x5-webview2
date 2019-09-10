@@ -7,7 +7,7 @@
     <description>Changes the default WebView to Tencent X5(TBS)</description>
     <license>Apache 2.0</license>
     <keywords>cordova,chromium,x5,webview,tbs,cordova-android</keywords>
-    <repo>https://github.com/coloz/cordova-plugin-x5-webview2.git</repo>
+    <repo>https://github.com/liuyaodroid/cordova-plugin-x5-webview2.git</repo>
 
     <engines>
         <engine name="cordova-android" version=">=7.0.0"/>
@@ -24,7 +24,6 @@
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.INTERNET" />
-            <uses-permission android:name="android.permission.READ_PHONE_STATE" />
         </config-file>
 
         <source-file src="platforms/android/src/org/jeremyup/cordova/x5engine/X5CookieManager.java" target-dir="app/src/main/java/org/jeremyup/cordova/x5engine"/>
@@ -36,7 +35,7 @@
         <source-file src="platforms/android/src/org/jeremyup/cordova/x5engine/X5WebViewClient.java" target-dir="app/src/main/java/org/jeremyup/cordova/x5engine"/>
         <source-file src="platforms/android/src/org/jeremyup/cordova/x5engine/X5WebViewEngine.java" target-dir="app/src/main/java/org/jeremyup/cordova/x5engine"/>
 
-        <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v3.6.0.jar" />
+        <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v4.3.0.1148_43697.jar" />
         <lib-file src="platforms/android/libs/armeabi/liblbs.so" />
     </platform>
 </plugin>
