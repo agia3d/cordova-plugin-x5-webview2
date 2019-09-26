@@ -17,9 +17,9 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <preference name="webView" value="org.jeremyup.cordova.x5engine.X5WebViewEngine" />
+            <preference name="android-minSdkVersion" value="19" />
+            <preference name="android-targetSdkVersion" value="28"/>
         </config-file>
-        <preference name="android-minSdkVersion" value="19" />
-        <preference name="android-targetSdkVersion" value="28"/>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
